@@ -1,4 +1,4 @@
-# SDK Based Integration Boilerplate for VSF 2
+# [WIP] SDK Based Sylius Integration Boilerplate for VSF 2
 
 ## Creating a new integration? 
 The fastest way to get started is to use our CLI to generate a new integration boilerplate
