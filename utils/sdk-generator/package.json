@@ -1,0 +1,13 @@
+{
+  "name": "sdk-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "api-spec-converter": "api-spec-converter",
+    "sdk:generate": "bash ./sdk-generator.sh"
+  },
+  "devDependencies": {
+    "api-spec-converter": "^2.12.0"
+  }
+}

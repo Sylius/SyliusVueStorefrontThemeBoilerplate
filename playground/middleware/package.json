@@ -1,0 +1,22 @@
+{
+  "name": "@vue-storefront/integration-boilerplate-playground",
+  "private": true,
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=16.x"
+  },
+  "scripts": {
+    "dev": "nodemon --watch node middleware.js"
+  },
+  "dependencies": {
+    "@vue-storefront/integration-sylius-api": "*",
+    "@vue-storefront/middleware": "3.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express-session": "^1.17.3"
+  },
+  "files": [
+    "lib/**/*",
+    "server/**/*"
+  ]
+}

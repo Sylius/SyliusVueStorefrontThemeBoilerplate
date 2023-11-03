@@ -1,0 +1,7 @@
+import {client, TInferFromPromise} from '../../client';
+import { {{ apiName }} } from "sylius-ts-sdk";
+
+export async function {{ methodName }}(...params: Parameters<{{ apiName }}['{{ apiMethodName }}']>) {
+const { data } = await client.post<TInferFromPromise<ReturnType<{{ apiName }}['{{ apiMethodName }}']>>['data']>('{{ methodName }}', ...params);
+return data
+}

@@ -1,0 +1,16 @@
+{
+  "useWorkspaces": true,
+  "npmClient": "yarn",
+  "command": {
+    "publish": {
+      "message": "chore(release): %s",
+      "conventionalCommits": true
+    }
+  },
+  "packages": [
+    "packages/**/*",
+    "playground/**/*",
+    "utils/**/*"
+  ],
+  "version": "0.0.1-rc3"
+}

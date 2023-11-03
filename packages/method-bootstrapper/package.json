@@ -1,0 +1,27 @@
+{
+  "name": "method-bootstrapper",
+  "private": true,
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "test": "echo Skip this step",
+    "test:unit": "echo Skip this step",
+    "test:integration": "echo Skip this step",
+    "lint": "echo Skip this step",
+    "bm": "node ./dist/index.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.7.7",
+    "readline-sync": "^1.4.10",
+    "sylius-ts-sdk": "^0.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0"
+  }
+}

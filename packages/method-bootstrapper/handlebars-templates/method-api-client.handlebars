@@ -1,0 +1,9 @@
+import {Endpoints, SyliusIntegrationContext, TInferFromPromise} from '../../types';
+import { {{ apiName }} } from "sylius-ts-sdk";
+
+
+export const {{ methodName }}: Endpoints['{{ methodName }}'] =
+  async (context: SyliusIntegrationContext, ...params: Parameters<{{ apiName }}['{{ apiMethodName }}']>): Promise<TInferFromPromise<ReturnType<{{ apiName }}['{{ apiMethodName }}']>>['data']> => {
+      const {data} = await context.client<{{ apiName }}>({{ apiName }}).{{ apiMethodName }}(...params)
+      return data
+    };
